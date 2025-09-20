@@ -48,5 +48,3 @@ Directory where uploaded files (CSV, XLSX, XLS) are stored
 4. Models define database schemas and handle data operations
 5. Middleware processes requests before reaching controllers (auth, validation)
 6. Uploads/ stores files uploaded through the application
-
-This is a well-structured MVC (Model-View-Controller) pattern backend application.
