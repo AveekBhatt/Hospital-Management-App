@@ -2,6 +2,8 @@
 This is a hospital management project
 
 JWT_SECRET=secret_key
+
+
 "connectionstring" : "mongodb+srv://testuser123:testuser123@cluster0.nqqervb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
