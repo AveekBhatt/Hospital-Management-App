@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   html{
+      font-family : "Poppins" , "sans-serif";
+   }
+   body{
+      background-color: #fdfeff;
+      overflow-x: hidden;
+   }
+}
+
+@layer components {
+   .input-box{
+     @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none
+   }
+   .btn-primary{
+     @apply w-full text-sm bg-primary text-white p-2 rounded my-1 hover:bg-blue-600
+   }
+
+   .input-label{
+      @apply text-xs text-slate-400;
+   }
+   .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+ .slider::-webkit-slider-thumb {
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #a78bfa;
+          cursor: pointer;
+        }
+        
+        .slider::-moz-range-thumb {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #a78bfa;
+          cursor: pointer;
+        }
+   
+}
